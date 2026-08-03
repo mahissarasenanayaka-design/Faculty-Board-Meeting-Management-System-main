@@ -1,0 +1,144 @@
+
+Design and Implementation of a Role-Based Access Control (RBAC) Real-
+Time Location Management System using Firebase and Google Map APIs
+
+P.K.G. Madhuranga
+Department of Information Technology, University of Ruhuna
+kavindumadhuranga954@gmail.com
+
+Abstract
+
+Location-based services have now become an essential component, effectively visualizing geographic information to
+users through the web and modern mobile devices. However, existing platforms like Google Maps prioritize and
+focus on general purposes and navigation usage. Existing platforms operate in a restrictive manner and support
+limited role-based access, customized systems, and categorized geographic location handling. The aim of this paper
+is to develop a role-based geographic location management system to improve controlled data access and
+management for web and mobile platforms. The main objective of the project is to design and implement a system
+that allows administration to add, edit, and delete location data while restricted users are able to view categorized
+locations. Email notifications are used for account registration and password recovery to improve the user
+experience. Furthermore, the proposed system allows administrators to manually customize location markers using
+image URLs. The system is developed using Firebase for user authentication and real-time location management.
+Furthermore, Google APIs are integrated to visualize locations using user interfaces, which enhances the user
+experience by providing interactive maps and real-time updates on location data. To ensure usability and
+accessibility, the system is developed across web and mobile platforms using Android Studio and VS Code. The
+system was evaluated using criteria such as system performance, accuracy, and responsiveness. The findings
+revealed that the system updates made by administrators are instantly reflected among all restricted users, and role-
+based access control ensures secure location visibility. The outcome demonstrates that the proposed system not only
+improves role-based access control but also offers improvements over traditional location-based applications in
+terms of flexibility, responsiveness, and administrative control.
+
+Keywords: Firebase, Google Maps API, Location-Based Services, Real-Time Location Management,
+Role-Based Access Control
+
+1. Introduction
+
+Location-based services are now used by people to interact with digital systems. People have become accustomed to
+accessing geographic information using tools like Google Maps. For instance, using location-based services to find a
+hospital in an emergency. These platforms are still built for general use and work well for navigation but are not good
+for situations where administrators need to control or manage data in a specific system. For instance, in a business or
+university setting, administrators might have to choose who can add locations and who can only see them. Therefore,
+the research problem lies in the lack of access-controlled geographic data management and data visualization systems.
+Many existing systems do not allow administrators to store geographical locations and do not allow restricted users to
+view those locations. The aim of this paper is to create a web and mobile geolocation management system with RBAC
+using Firebase and Google Maps APIs. The purpose of the system is to allow administrators to add, edit, delete
+locations, manage users, and allow a limited group of users to view locations. Features such as email notifications and
+flexible map marking are provided to enhance user experience.
+
+2. Literature Review
+
+Recent location-based services focus on secure user permission management and cross-platform access. For instance,
+Al Lail et al. (2024) described a way to secure data implementing the Generalized Spatio-Temporal RBAC Model
+(GSTRBAC). They proposed to provide access-based control on user credentials. As Eryonucu & Papadimitratos
+(2022) paper, many popular location-based services do not allow strong security and also make attacks easier. The
+developed system aims to bridge this gap by allowing administrators to manage geographic locations and allowing
+users with access to view locations. Recent studies validate Google Maps APIs and Firebase for real-time and cross-
+platform synchronization. M.S. Saran et al (2025) demonstrates that the road data collection (GetMap) Android and
+Firebase supports users to upload and download collected field data simultaneously. They demonstrate that the
+Firebase is a cloud storage that includes Authentication, Real-time Database, Cloud Storage, and Cloud Firestore.
+Firebase's SDK is cross-platform, allowing projects to be integrated with Android, ISO, and web platforms. In practice,
+developers utilize Google Maps APIs and Firebase to effectively visualize live maps and map markers. For instance,
+Zakiyah Rahmanti et al (2022) developed a transportation system utilizing Google Maps APIs and Firebase as
+backend. Amik Lamappapoleonro Soppeng et al (2021) developed a location based public transportation web
+application using JavaScript. They demonstrate that JavaScript is able to work in most popular web browsers such as
+Internet Explorer. These works are supported to implement a real-time RBCA location management system with
+categorized location handling and instant synchronization utilizing Firebase and Google Maps.
+
+3. Research Materials and Methods
+
+This paper follows a system development approach to create a RBAC real-time location management system to solve
+a real-world problem. This system is developed using Firebase as backend for user authentication, real-time
+synchronization, and data storage. Firebase store location data, user data, and marker URLs in JSON format. Google
+Maps APIs such as Maps SDK for Android and Maps JavaScript API for web are integrated to provide interactive
+interfaces for visualizing map markers. The system is developed using Bootstrap to be compatible with both web and
+mobile devices to ensure accessibility across devices. RBAC has been implemented to allow administrators to manage
+geographic data and allow users to view the data via web or mobile applications. Features such as email notifications,
+responsive web design, and password recovery have been included to enhance usability. PHP Mailer was used to send
+email notifications. Web pages and mobile applications have been implemented using Android Studio and VS Code
+IDEs. Functional testing is conducted to evaluate data accuracy, responsiveness, and system performance under
+different user scenarios.
+
+Table 1: Research Materials
+
+Research Material Purpose
+Firebase ‘Authentication and Real-time Database
+Google Map APIs Visualizing map and map markers
+PHP Mailer Password recovery and registration notifications
+Bootstrap Responsive web design
+VS Code Website creation
+Android Studio Mobile application creation
+
+4. Results and Discussion
+
+The implemented system demonstrates that a RBAC real-time location management approach can be effectively
+achieved using the Google Maps API and Firebase. During the testing, users were able to log in to the system without
+any difficulty. Administrators could easily add, edit, delete locations, and manage users. Furthermore, restricted users
+were able to view those updates immediately. For example, when a new laboratory location was added, it could be
+viewed instantly within seconds using the website or mobile app. The real-time RBAC worked as expected. Allow
+administrators to insert, edit, and delete new data, as well as users to securely view data and prevent external parties
+from accessing that data. Email notifications such as registration and password recovery worked reliably, thereby
+improving the user experience. The system showed low response time during normal usage and delivered accurate
+results. However, performance with large-scale datasets was not thoroughly evaluated, indicating a need for further
+testing in future work.
+Figure 1: Login Page Figure 2: Home Page
+
+Figure 4: Add Member Page
+Lo2c\@ee | weessme |
+
+GeoManage
+Login
+
+Figure 5: Login page (mobile Figure 6: Location Viewing page
+application) (mobile application)
+5. Conclusion/s and suggestions
+
+The developed system demonstrates that an efficient and effective geolocation management system can be
+implemented using a RBAC method with the help of Firebase and Google Maps API. Basic tasks such as handling
+geolocation data and managing users can be performed without difficulty, and updated data is reflected instantly with
+the help of web and mobile applications. This kind of responsiveness makes the system feel reliable from a user’s
+point of view. Managing locations based on categories simplifies navigation, and its importance depends on how
+administrators use categories. This system ensures that users only have the ability to view data, while administrators
+have the ability to modify and view data. The user experience has been improved by implementing user registration
+email notifications and password recovery email notifications. As a future work, search and filtering options based on
+categories can be developed so that users can handle large amounts of data without any hassle. The system can be
+further enhanced by adding features such as location-based notifications and analytics. Overall, the system solves a
+real-world problem, but it is not the final step.
+
+6. References
+
+Al Lail, M., Moncivais, M., Benton, R., & Perez, A. J. (2024). Cloud-Based Access Control Including Time and
+Location. Electronics (Switzerland), 13(14). https://doi.org/10.3390/electronics 13142812
+
+Amik Lamappapoleonro Soppeng, W. S., Pradana, M., Fery Widodo, A., Aryo Nugraha Pondatu, G., & Wahyu
+Nugraha Prodi, D. (2021). Development of a Public Transportation Location-Based Service in Web Application.
+
+Eryonucu, C., & Papadimitratos, P. (2022). Sybil-Based Attacks on Google Maps or How to Forge the Image of
+City Life. WiSec 2022 - Proceedings of the 15th ACM Conference on Security and Privacy in Wireless and Mobile
+Networks, 73-84. https://doi-org/10.1145/3507657.3528538
+
+MLS. Saran, Radhakrishnan, N., & Anjana, P. P. (2025). Leveraging GIS and Mobile Technology for Efficient Road
+Data Collection: A Case Study with GetMap. Journal of Geomatics, 19(2), 175-187.
+https://doi.org/10.58825/jog.2025.19.2.221
+
+Zakiyah Rahmanti, F., Ayu Permata, O., Amiroh, K., Tobianto Daely, P., Ittaqullah, A., & Bagus Saputro, D.
+(2022). An Improvement Using Global Positioning System (GPS) and Cloud Firestore for Integration of Information
+System in Surabaya Public Transportation (Vol. 5).

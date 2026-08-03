@@ -1,0 +1,240 @@
+
+ICT 21633
+
+Fundamentals of Software
+Engineering
+
+Assignment - 02
+
+HS/2022/19712
+
+2000 Level
+
+1°* Semester
+
+Department of Information
+Technology
+
+University of Ruhuna
+
+1|Page
+Introduction
+
+SDLC known as software development life cycle. It is a structured process used to planning,
+creating, testing and deploying software systems. There are some main phases of the software
+development life cycle. Thy are, Planning, Analysis, Design, Implementation, Testing and
+integration, deploying, Maintenance. Each phase is crucial for creating a successful software
+product. Furthermore each phase involves different activities. Using SDLC we can design and
+build high quality software. It is a cost effective and time efficient process.
+
+(depioyment)
+
+_ Sle
+
+Figure 01-Software Development Life Cycle
+
+Planning Phase
+
+In the planning phase of the software development life cycle objectives, project's scope and
+feasibilities are defined. In this phase stakeholders identify goals, resources and timelines of the
+project. Furthermore stakeholders understand client or end user needs. In this phase
+stakeholders assess the technical, operational and financial feasibilities of project. Furthermore
+stakeholders have to define what should be included and excluded in the project. Determining
+required resources such as human, technological and financial. Furthermore stakeholders have
+to create a project schedule in this phase.
+
+Analysis Phase
+
+In this phase analysis refers to the process of understanding and specifying what the software
+needs to do to meet user requirements. This is the process of gathering information about the
+needs and expectations of stakeholders for the software system. This step involves
+interviews(unstructured), surveys, focus groups, workshops, mind mapping and other
+techniques to gather information from stakeholders. After that analyzing the information,
+identify the high level goals and objectives of the software system. Furthermore identifying any
+constraints or limitations that may affect the development of the software system. Moreover in
+this phase stakeholders create a clear documentation and check that the requirements are
+complete and accurate.
+
+2|Page
+Design phase
+
+System's architecture and detailed specifications are created in design phase using
+requirements gathered in the analysis phase. Describes the overall structure of the system
+including the choice of technology stack, system components and their interaction.
+Stakeholders create database schema in good manner to store data efficiently and design user
+friendly user interface. Components of the system break down to smaller modules to define
+their functionalities and interfaces. The effective design ensures that the development process
+is efficient and risk are minimized. Furthermore development group create detailed
+specifications for each component.
+
+Implementation phase
+
+In software development life cycle actual coding of the software is included in implementation
+phase. In this phase programmers translate design documents and specifications into software
+code using programming languages and tools. Furthermore programmers will check individual
+modules of the software system to ensure they work correctly. After that programmers
+combine individual modules and test them together. The main goal of the implementation is
+produce a good software product that meets client's requirements. There are lots of
+programming languages in today's world. Some of them are, Java, Python, Java Script, C#, PHP.
+
+Testing and Integration phase
+
+In testing and integration of SDLC Testers and Quality Assurance engineers ensure that software
+functions correct and meets user requirements. In this phase Testers identify bugs in the
+software system. There are four types of testing in this phase. They are, Unit, Integration,
+System and Acceptance test. Unit testing means Testers or QA engineers test individual
+components and functions in isolation. Integration testing means testers or QA engineers test
+interactions between integrated units or modules. In system testing they evaluates the
+complete and integrated software system. In acceptance testing they validates the software for
+user requirements and business needs.
+
+In integration phase Testers or QA engineers combine and test various modules of the software
+to ensure that they work together as intended. In this phase tester use automated builds and
+tests to detect integration issues early. Using testing and integration testers and QA engineers
+ensure that each component is working correct within the system.
+
+3| Page
+Deployment phase
+
+In deployment phase end user or client receive the completed software. Client will ensure that
+the development environment is ready including hardware, software and network
+configurations. After that client will install the software and adjust settings to fit the specific
+needs. Furthermore client will check the software to confirm that the software works as
+expected. After that client will publish the software to user. Furthermore client will monitor the
+software's performance and functionality to find any issues available in software.
+
+Maintenance phase
+
+In maintenance phase software is updated, repaired and improved after the software initial
+release. In this phase system administrators can correct errors that they could not find errors
+during the initial phases. Also they can add new features or they can improve existing ones.
+Furthermore they can improve software efficiency and performance in this phase. Also system
+administrators can apply updates for hardware, software and security environments. The goal
+of maintenance is to ensure that the software continues to meet user needs and operate
+effectively.
+
+Summary With a Example
+
+Let's think that our development team is going to do a Hotel Reservations System software,
+then our group have to planning about the system. In this phase our development team will ask
+about requirements of the client. After that we have to identify project goals, resources and
+timelines of the project. In this phase we have to assess feasibilities such as technical,
+operational and financial. After that we have to create a project schedule including deadlines
+and timelines.
+
+In analysis phase we have to gather information about the project needs and expectations of
+our working group using such as interviews, surveys and focus groups. We have to conduct
+interviews with hotel staff, customers and management to gather requirements. In hotel
+reservations systems, key requirements are,
+
+e Hotel package details
+e Payment process
+
+© Book or reserve rooms
+e Facilities
+
+eCheck in and outs
+
+e Security
+
+4|Page
+e Location/ Hotel history
+¢ Staff and service details
+
+Our development group have to gather functional requirements like above. Furthermore we
+have to consider about non functional requirements like system performance, security. We can
+use diagrams such as Data flow diagram, HIPO diagram, UML diagram for both analysis and
+design phase.
+
+Level 0 Data Flow Diagram
+
+Hotel ‘Accommodation info
+
+Administration customer info
+
+ao (Check room avatiabity
+
+Customer info Customer info
+
+Resewtion
+System
+
+_ a. Sect a
+
+Accommodation info
+
+£
+
+j, Coustomer info
+
+Service
+
+Figure 02-Level 0 Data Flow Diagram
+
+Level 1 Data Flow Diagram
+
+‘Accommodation info ‘Accommodation info
+
+Hotel Bilinfo ‘Aecomminfo Booking
+Administration —
+
+Customer info
+
+Check room availability yo
+
+PB
+Check room availability
+
+| customer info
+
+maths Reservation x a | Customer
+Pavent aries custome io
+
+servse ani
+Service detals Bil info |
+
+;
+
+Sewice
+
+|
+service Accommodation info |
+Customer info
+
+Figure 03-Level 1 Data Flow Diagram
+
+Payment }
+
+Customer info
+
+customer info Customer
+
+__bayment ¥ ]
+
+Payment ——I
+
+In the design phase development group have to create blueprint for the system based on the
+requirements. Like that, we have to create development system architecture, database schema
+and user interface design.
+
+5|Page
+Furthermore programmers have to coding the system using coding languages. After that
+programmers have to implement database integration and they have to ensure that all the
+components work together. Our testers have to check the system including such as unit testing,
+integration testing, system and user acceptance testing. After those process our development
+team can release the system for hotel and it's customers .After that hotel administration check
+and use the hotel reservation system. Finally system administrators update, repair and improve
+the hotel reservation system.
+
+According to above phases, software development life cycle is very useful for stakeholders to
+create a high quality software efficiently and systematically. We can use software models for
+software development such as Waterfall, Agile, Interative and Spiral model. Those models were
+introduced to follow a disciplined and systematic method while designing software.
+
+References-
+
+https;//www.synopsys.com
+https;//www.tutorialspoint.com
+https;//www.geeksforgeeks.org
+
+6|Page

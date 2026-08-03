@@ -1,0 +1,106 @@
+
+1CT22642 — INTERNET
+OF THINGS (IOT)
+
+IoT Security and Privacy - 1
+
+S. Aysha Asra
+Lecturer
+Department of Information Technology
+Faculty of Humanities and Social Sciences
+University of Ruhuna
+Introduction to IoT Security and
+Privacy
+
+¢ The Internet of Things (IoT) connects billions of devices like smartwatches,
+home security systems, and industrial machines to the internet.
+
+« These devices collect, process, and share data to make life easier and
+
+improve efficiency.
+
+« However, as IoT grows, so do the risks associated with its use.
+What is IoT Security?
+¢IoT security refers to the measures and practices used to protect IoT
+devices, networks, and the data they generate from unauthorized access,
+theft, or damage.
+
+« Key Objective: Ensure the confidentiality, integrity, and availability of IoT
+
+systems.
+
+¢ Why Important? IoT devices often operate in critical areas like healthcare,
+transportation, and homes, where a security breach can cause significant
+
+harm.
+What is IoT Privacy?
+Internet of Things Applications
+
+«IoT privacy focuses on protecting personal and sensitive information
+collected by IoT devices. It ensures that users have control over how their
+data is collected, stored, and shared.
+
+« Key Objective: Maintain user trust by safeguarding their data.
+
+¢ Why Important? Many IoT devices collect highly personal information, such
+as health stats, location, or daily habits.
+Why IoT Security and Privacy Are
+Critical
+
+« Increased Connectivity
+
+¢ With billions of devices connected, a single vulnerability can affect multiple
+
+systems.
+
+« Example: A weakly secured smart bulb can become an entry point for
+hackers to access a home network.
+Internet of Things Applications
+
+- Diverse Devices and Standards
+
+¢eIoT devices come from various manufacturers with different security
+
+standards, creating inconsistencies.
+
+« Example: Some devices might not support encryption, making them easier
+
+targets.
+Internet of Things Applications
+
+- Sensitive Data
+
+¢IoT collects a large amount of data, often about personal or business
+
+activities.
+
+« Example: Fitness trackers log health metrics, which can be exploited if
+leaked.
+Internet of Things Applications
+
+¢ Critical Infrastructure Dependency
+
+¢IoT is integral to essential services like energy grids, water supply, and
+healthcare.
+
+« Example: A hacked smart grid could cause power outages in a city.
+Challenges in IoT Security and
+Privacy
+
+¢ Limited Device Resources
+
+« Many IoT devices are small and lack the processing power for advanced
+security features like encryption.
+
+« Example: A cheap smart sensor might not support regular updates or
+
+complex security protocols.
+Internet of Things Applications
+
+« Lack of User Awareness
+
+« Users often do not understand the security risks of IoT devices, leading to
+weak passwords or unprotected networks.
+
+« Example: A user may connect their smart TV to a public Wi-Fi network
+without knowing the risks.
